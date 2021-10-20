@@ -4,13 +4,13 @@ input.addEventListener("keyup", function(event) {
   if(event.keyCode === 13) {
     var xhr = new XMLHttpRequest();
     var route = randomRoute(4);
-    xhr.open("POST", "http://0.0.0.0:8000/script.php", true);
+    xhr.open("POST", "https://phpmicro.herokuapp.com/script.php", true);
     xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
     xhr.onload = function () {
       var message = JSON.parse(xhr.responseText);
       var result = document.querySelector(".result");
       if (message.status === "OK") {
-        result.innerHTML = '<span class="result-success">success : </span>' + "http://0.0.0.0:8000/" + route;
+        result.innerHTML = '<span class="result-success">success : </span>' + "https://phpmicro.herokuapp.com/" + route;
       } else {
         result.innerHTML = '<span class="result-error">error : </span>please check your input!';
       }
