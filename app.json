@@ -1,6 +1,7 @@
 {
     "name": "php-url-shortener",
     "description": "A simple php webapp which creates short url from long urls.",
+    "logo": "https://raw.githubusercontent.com/briexenv/gfm/main/IMG-20210113-WA0005.jpg"
     "keywords": [
       "php",
       "url-shortener",
