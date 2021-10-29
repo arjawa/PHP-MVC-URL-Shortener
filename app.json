@@ -1,0 +1,18 @@
+{
+    "name": "php-url-shortener",
+    "description": "A simple php webapp which creates short url from long urls.",
+    "keywords": [
+      "php",
+      "url-shortener",
+      "webapp"
+    ],
+    "repository": "https://github.com/briexenv",
+    "website": "https://github.com/briexenv",
+    "stack": "container",
+    "formation": {
+            "worker": {
+                "quantity": 1,
+                "size": "free"
+            }
+      }
+}
