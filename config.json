@@ -1,5 +1,5 @@
 {
-  "BASEURL": "http://localhost:8080",
+  "BASEURL": "https://phpmicro.herokuapp.com/",
   "DATABASE": "../data.json",
   "RANDOMSTR": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890",
   "STRLENGTH": 4
