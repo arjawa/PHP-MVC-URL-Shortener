@@ -1,0 +1,6 @@
+{
+  "BASEURL": "http://localhost:8080",
+  "DATABASE": "../data.json",
+  "RANDOMSTR": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890",
+  "STRLENGTH": 4
+}
