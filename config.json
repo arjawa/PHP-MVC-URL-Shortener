@@ -1,5 +1,5 @@
 {
-  "BASEURL": "https://phpmicro.herokuapp.com/",
+  "BASEURL": "https://phpmicro.herokuapp.com",
   "DATABASE": "../data.json",
   "RANDOMSTR": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890",
   "STRLENGTH": 4
